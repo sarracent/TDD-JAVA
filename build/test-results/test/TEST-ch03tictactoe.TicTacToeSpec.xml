@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ch03tictactoe.TicTacToeSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-07-18T04:00:14" hostname="damian-software-developer" time="0.014">
+<testsuite name="ch03tictactoe.TicTacToeSpec" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-07-20T01:42:08" hostname="damian-software-developer" time="0.015">
   <properties/>
   <testcase name="givenLastTurnWasXWhenNextPlayerThenO" classname="ch03tictactoe.TicTacToeSpec" time="0.001"/>
-  <testcase name="whenYOutsideBoardThenRuntimeException" classname="ch03tictactoe.TicTacToeSpec" time="0.006"/>
+  <testcase name="whenYOutsideBoardThenRuntimeException" classname="ch03tictactoe.TicTacToeSpec" time="0.003"/>
+  <testcase name="whenPlayAndTopBottomDiagonalLineThenWinner" classname="ch03tictactoe.TicTacToeSpec" time="0.007"/>
+  <testcase name="whenPlayAndWholeHorizontalLineThenWinner" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
   <testcase name="givenFirstTurnWhenNextPlayerThenX" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
-  <testcase name="whenXOutsideBoardThenRuntimeException" classname="ch03tictactoe.TicTacToeSpec" time="0.001"/>
+  <testcase name="whenXOutsideBoardThenRuntimeException" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <testcase name="whenPlayAndBottomTopDiagonalLineThenWinner" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
   <testcase name="whenOccupiedThenRuntimeException" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <testcase name="whenPlayAndWholeVerticalLineThenWinner" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <testcase name="whenPlayThenNoWinner" classname="ch03tictactoe.TicTacToeSpec" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
